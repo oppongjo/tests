@@ -35,3 +35,20 @@ In descriptive statistics, we calculate:
 9. Print each statistic nicely formatted:
  - Use format() or f-strings to align decimals
 10. Call get_stats() function with filename and column number from command line arguments
+
+## Running the program
+Enter Python3 stats_in_python <filename> <column number> 
+for example:
+python3 stats_in_python.py data_file2.txt 3
+    Column: 3 
+
+
+        Count     =   125.000 
+        ValidNum  =   124.000
+        Average   =    57.621 
+        Maximum   =    97.000
+        Minimum   =    16.000
+        Variance  =   306.871
+        Std Dev   =    17.518
+        Median    =    58.000
+
