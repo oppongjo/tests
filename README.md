@@ -37,7 +37,9 @@ In descriptive statistics, we calculate:
 10. Call get_stats() function with filename and column number from command line arguments
 
 ## Running the program
+
 Enter Python3 stats_in_python <filename> <column number> 
+
 for example:
 python3 stats_in_python.py data_file2.txt 3
     Column: 3 
