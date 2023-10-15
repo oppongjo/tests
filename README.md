@@ -13,8 +13,11 @@ In descriptive statistics, we calculate:
 
 ## Here is a step-by-step overview of the program:
 1.Import required modules (sys, collections, math)
+
 2. Define get_stats() function that takes filename and column number as arguments
+
 3. Initialize empty list to store numbers
+
 4. Open file and loop through each line:
  - Split line on tabs
  - Try to convert specified column to float
