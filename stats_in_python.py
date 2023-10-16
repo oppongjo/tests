@@ -38,8 +38,9 @@ def get_stats(filename, column_index):
         stats['Variance'] = variance
         stats['Std Dev'] = sqrt(variance)
         numbers.sort()
-        stats['Median'] = numbers[valid_count // 2] if valid_count % 2 == 1 else (numbers[valid_count // 2 - 1] +
-                                                                                  numbers[valid_count // 2]) / 2
+        stats['Median'] = numbers[valid_count // 2] 
+        if valid_count % 2 == 1 
+        else (numbers[valid_count // 2 - 1] + numbers[valid_count // 2]) / 2
 
     print(f"Column: {column_index}")
 
